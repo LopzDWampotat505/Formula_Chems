@@ -51,7 +51,7 @@ Para una mejor comprensión de las asociaciones, agregaciones y herencias del pr
 
 [cite_start]El código fuente está organizado de la siguiente manera dentro del directorio `src`, separando la lógica principal de las sesiones de clasificación y los componentes técnicos[cite: 6, 70, 157]:
 
-```text
+```
 Formula Chems
 └── src
     ├── Carrera.java
@@ -66,6 +66,7 @@ Formula Chems
     ├── Q3.java
     ├── Temporada.java
     └── Vehiculo.java
+```
 
 ---
 ## 👥 Equipo de Desarrollo
