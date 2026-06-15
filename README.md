@@ -80,4 +80,4 @@ Formula Chems
 ---
 
 ## 📄 Licencia y Contexto
-Este proyecto fue realizado con fines académicos para la materia de **Programación Orientada a Objetos** con fecha de entrega del **11 de junio de 2026**.
+Este proyecto fue realizado con fines académicos para la materia de **Programación Orientada a Objetos** con fecha de entrega del **22 de junio de 2026**.
