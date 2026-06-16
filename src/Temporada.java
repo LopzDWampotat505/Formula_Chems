@@ -17,7 +17,7 @@ public class Temporada {
     public void addCarrera(Carrera c){
         //c.setCountry(this);
         if(c != null) {
-            carreras.add(a);
+            carreras.add(c);
         } else {
             System.out.println("Una carrera debe de existir en la temporada");
         }
