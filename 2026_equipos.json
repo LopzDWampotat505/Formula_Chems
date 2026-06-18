@@ -1,0 +1,27 @@
+{
+  "año_temporada": 2026,
+  "escuderias": [
+    {
+      "nombre": "Oracle Red Bull Racing",
+      "vehiculos": [
+        { "id": 1, "motor": 10, "llantas": 10, "peso": 8 },
+        { "id": 2, "motor": 10, "llantas": 10, "peso": 8 }
+      ],
+      "pilotos": [
+        { "nombre": "Max Verstappen", "nacionalidad": "NED", "habilidad_base": 0.98 },
+        { "nombre": "Sergio Pérez", "nacionalidad": "MEX", "habilidad_base": 0.88 }
+      ]
+    },
+    {
+      "nombre": "McLaren F1 Team",
+      "vehiculos": [
+        { "id": 1, "motor": 10, "llantas": 10, "peso": 8 },
+        { "id": 2, "motor": 10, "llantas": 10, "peso": 8 }
+      ],
+      "pilotos": [
+        { "nombre": "Lando Norris", "nacionalidad": "GBR", "habilidad_base": 0.95 },
+        { "nombre": "Oscar Piastri", "nacionalidad": "AUS", "habilidad_base": 0.9 }
+      ]
+    }
+  ]
+}

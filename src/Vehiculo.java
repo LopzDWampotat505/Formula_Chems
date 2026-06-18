@@ -9,15 +9,10 @@ public class Vehiculo {
         setPeso(pes);
     }
 
-    public byte getMotor(){
-        return motor;
-    }
-    public byte getLlantas(){
-        return llantas;
-    }
-    public byte getPeso(){
-        return peso;
-    }
+    public byte getMotor(){ return motor; }
+    public byte getLlantas(){ return llantas; }
+    public byte getPeso(){ return peso; }
+
     public void setMotor(byte mo) {
         if (mo < 0 || mo > 10) {
             throw new IllegalArgumentException("La caracteristica debe estar entre 0 y 10. Valor intentado: " + mo);
@@ -25,11 +20,11 @@ public class Vehiculo {
         this.motor = mo;
     }
 
-    public void setLlantas(byte llan) { [cite: 142]
+    public void setLlantas(byte llan) {
         if (llan < 0 || llan > 10) {
             throw new IllegalArgumentException("La caracteristica debe estar entre 0 y 10. Valor intentado: " + llan);
         }
-        this.llantas = llan; [cite: 142]
+        this.llantas = llan;
     }
 
     public void setPeso(byte pes) {
