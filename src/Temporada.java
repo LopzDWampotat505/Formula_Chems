@@ -64,4 +64,18 @@ public class Temporada {
 
     public List<Escuderia> getEscuderia() { return this.escuderias; }
 
+    public Map<Escuderia, Integer> getPuntosPorEscuderia() {
+        Map<Escuderia, Integer> puntos = new HashMap<>();
+        for (Escuderia e : escuderias) puntos.put(e, 0);
+        for (Map.Entry<Driver, Integer> entry : campeonatoMundial.entrySet()) {
+            for (Escuderia e : escuderias) {
+                if (e.getDrivers().contains(entry.getKey())) {
+                    puntos.put(e, puntos.get(e) + entry.getValue());
+                    break;
+                }
+            }
+        }
+        return puntos;
+    }
+
 }

@@ -1,27 +1,13 @@
 {
   "año_temporada": 2026,
   "escuderias": [
-    {
-      "nombre": "Oracle Red Bull Racing",
-      "vehiculos": [
-        { "id": 1, "motor": 10, "llantas": 10, "peso": 8 },
-        { "id": 2, "motor": 10, "llantas": 10, "peso": 8 }
-      ],
-      "pilotos": [
-        { "nombre": "Max Verstappen", "nacionalidad": "NED", "habilidad_base": 0.98 },
-        { "nombre": "Sergio Pérez", "nacionalidad": "MEX", "habilidad_base": 0.88 }
-      ]
+    { "nombre": "Dummy",
+      "vehiculos": [{ "id": 1, "motor": 5, "llantas": 5, "peso": 5 },{ "id": 2, "motor": 5, "llantas": 5, "peso": 5 }],
+      "pilotos": [{ "nombre": "Dummy", "nacionalidad": "DUM", "habilidad_base": 0.5 },{ "nombre": "Dummy", "nacionalidad": "DUM", "habilidad_base": 0.5 }]
     },
-    {
-      "nombre": "McLaren F1 Team",
-      "vehiculos": [
-        { "id": 1, "motor": 10, "llantas": 10, "peso": 8 },
-        { "id": 2, "motor": 10, "llantas": 10, "peso": 8 }
-      ],
-      "pilotos": [
-        { "nombre": "Lando Norris", "nacionalidad": "GBR", "habilidad_base": 0.95 },
-        { "nombre": "Oscar Piastri", "nacionalidad": "AUS", "habilidad_base": 0.9 }
-      ]
+    { "nombre": "Redbull",
+      "vehiculos": [{ "id": 1, "motor": 7, "llantas": 9, "peso": 9 },{ "id": 2, "motor": 9, "llantas": 8, "peso": 8 }],
+      "pilotos": [{ "nombre": "max", "nacionalidad": "NED", "habilidad_base": 0.95 },{ "nombre": "checo", "nacionalidad": "MEX", "habilidad_base": 0.89 }]
     }
   ]
 }

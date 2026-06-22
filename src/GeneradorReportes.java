@@ -75,4 +75,43 @@ public class GeneradorReportes {
         }
         return String.format("%.3fs", mapaSesion.get(pilotoBuscado));
     }
+    public List<Driver> ordenCampeonato(Temporada t) {
+        return t.getCampeonato().entrySet().stream()
+                .sorted(Map.Entry.<Driver, Integer>comparingByValue().reversed())
+                .map(Map.Entry::getKey)
+                .collect(java.util.stream.Collectors.toList());
+    }
+
+    public Object[][] generarDatosClasificacion(Carrera c) {
+        Clasification juez = c.getClasificacion();
+        List<Driver> parrilla = juez.getParrillaFinal();
+        if(parrilla == null || parrilla.isEmpty()) return new Object[0][0];
+
+        Object[][] datos = new Object[parrilla.size()][6];
+        for (int i = 0; i < parrilla.size(); i++) {
+            Driver p = parrilla.get(i);
+            datos[i][0] = i + 1;
+            datos[i][1] = p.getNombre();
+            datos[i][2] = p.getNacionalidad();
+            datos[i][3] = buscarTiempo(p, juez.getTiemposQ1());
+            datos[i][4] = buscarTiempo(p, juez.getTiemposQ2());
+            datos[i][5] = buscarTiempo(p, juez.getTiemposQ3());
+        }
+        return datos;
+    }
+
+    public Object[][] generarDatosCarrera(Carrera c, Temporada t) {
+        if(c.getGranPremio() == null || c.getGranPremio().getResultadosFinales() == null) return new Object[0][0];
+        List<Driver> resultados = c.getGranPremio().getResultadosFinales();
+        Object[][] datos = new Object[resultados.size()][5];
+        for (int i = 0; i < resultados.size(); i++) {
+            Driver p = resultados.get(i);
+            datos[i][0] = i + 1;
+            datos[i][1] = p.getNombre();
+            datos[i][2] = p.getNacionalidad();
+            datos[i][3] = "Finalizó " + (i+1) + "º";
+            datos[i][4] = t.getCampeonato().get(p);
+        }
+        return datos;
+    }
 }
