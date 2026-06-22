@@ -1,0 +1,26 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Contexto}{2}{section.1}%
+\contentsline {section}{\numberline {2}Motivación}{2}{section.2}%
+\contentsline {section}{\numberline {3}Objetivos}{2}{section.3}%
+\contentsline {section}{\numberline {4}Enfoque}{3}{section.4}%
+\contentsline {section}{\numberline {5}Fase de Análisis}{3}{section.5}%
+\contentsline {section}{\numberline {6}Fase de Diseño}{4}{section.6}%
+\contentsline {section}{\numberline {7}Implementación}{5}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Entidades Básicas}{5}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Motor de Simulación}{6}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}El Flujo y Control de Datos}{6}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Director de Orquesta}{6}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Anexos}{6}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Justificación SO2}{6}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Códigos para S02}{7}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Identify}{7}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Analyze}{8}{subsubsection.8.2.2}%
+\contentsline {subsubsection}{\numberline {8.2.3}Evaluate Solutions}{8}{subsubsection.8.2.3}%
+\contentsline {subsubsection}{\numberline {8.2.4}Develop Solutions}{9}{subsubsection.8.2.4}%
+\contentsline {subsubsection}{\numberline {8.2.5}Implement Engineering Design}{9}{subsubsection.8.2.5}%
+\contentsline {subsubsection}{\numberline {8.2.6}Consider non-technical issues}{10}{subsubsection.8.2.6}%
+\contentsline {subsection}{\numberline {8.3}Plan de Trabajo Interno}{11}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Registro de Reuniones Internas}{11}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Porcentaje de Participación}{11}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Metodología de Implementación}{11}{subsection.8.6}%
+\contentsline {section}{\numberline {9}Referencias}{13}{section.9}%
