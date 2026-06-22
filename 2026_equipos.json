@@ -5,9 +5,13 @@
       "vehiculos": [{ "id": 1, "motor": 5, "llantas": 5, "peso": 5 },{ "id": 2, "motor": 5, "llantas": 5, "peso": 5 }],
       "pilotos": [{ "nombre": "Dummy", "nacionalidad": "DUM", "habilidad_base": 0.5 },{ "nombre": "Dummy", "nacionalidad": "DUM", "habilidad_base": 0.5 }]
     },
-    { "nombre": "Redbull",
-      "vehiculos": [{ "id": 1, "motor": 7, "llantas": 9, "peso": 9 },{ "id": 2, "motor": 9, "llantas": 8, "peso": 8 }],
-      "pilotos": [{ "nombre": "max", "nacionalidad": "NED", "habilidad_base": 0.95 },{ "nombre": "checo", "nacionalidad": "MEX", "habilidad_base": 0.89 }]
+    { "nombre": "Cadillac",
+      "vehiculos": [{ "id": 1, "motor": 7, "llantas": 8, "peso": 7 },{ "id": 2, "motor": 8, "llantas": 8, "peso": 7 }],
+      "pilotos": [{ "nombre": "Checo Perez", "nacionalidad": "MEX", "habilidad_base": 0.95 },{ "nombre": "MAX", "nacionalidad": "NDE", "habilidad_base": 0.85 }]
+    },
+    { "nombre": "Ferrari",
+      "vehiculos": [{ "id": 1, "motor": 7, "llantas": 7, "peso": 8 },{ "id": 2, "motor": 8, "llantas": 8, "peso": 8 }],
+      "pilotos": [{ "nombre": "Hamilton", "nacionalidad": "ENG", "habilidad_base": 0.95 },{ "nombre": "Lecreck", "nacionalidad": "MON", "habilidad_base": 0.9 }]
     }
   ]
 }

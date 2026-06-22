@@ -1,7 +1,8 @@
 {
   "año_temporada": 2026,
   "carreras": [
-    { "ronda": 1, "nombre_circuito": "Monaco", "dificultad": 9 },
-    { "ronda": 2, "nombre_circuito": "HU", "dificultad": 2 }
+    { "ronda": 1, "nombre_circuito": "Mexico", "dificultad": 7 },
+    { "ronda": 2, "nombre_circuito": "Monaco", "dificultad": 9 },
+    { "ronda": 3, "nombre_circuito": "Brasil", "dificultad": 5 }
   ]
 }
